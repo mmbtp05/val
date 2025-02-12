@@ -474,7 +474,7 @@
 
 
 /* Promise Day */
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -555,12 +555,10 @@
 .animate-rise-up { animation: rise-up 0.8s ease-out forwards; }
 .animate-spin-slow { animation: spin-slow 3s linear infinite; }
 
-/* Custom hover scale */
 .hover\:scale-102:hover {
   transform: scale(1.02);
 }
 
-/* Smooth scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
 }
@@ -576,4 +574,91 @@
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background-color: rgba(147, 51, 234, 0.5);
+} */
+
+/* Hug Day */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
+
+@keyframes heart-pop {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.4) rotate(15deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes wink {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.1); }
+}
+
+@keyframes rise-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes emoji-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-in { animation: bounce-in 1s cubic-bezier(0.36, 0, 0.66, 1.54) forwards; }
+.animate-heart-pop { animation: heart-pop 0.6s ease-out forwards; }
+.animate-wink { animation: wink 0.4s ease-in-out; }
+.animate-rise-up { animation: rise-up 0.8s ease-out forwards; }
+.animate-spin-slow { animation: spin-slow 3s linear infinite; }
+.animate-emoji-fall { animation: emoji-fall 3s linear forwards; }
+.animate-slide-up { animation: slide-up 0.8s ease-out forwards; }
