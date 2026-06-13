@@ -154,13 +154,13 @@ const GoodMorningPage = () => {
             >
                 <div className="mb-3 flex items-center gap-2 text-amber-50/90">
                     <Stars className="h-5 w-5 animate-pulse" />
-                    <span className="text-xs uppercase tracking-[0.35em]">A new day, a new me</span>
+                    <span className="text-xs uppercase tracking-[0.35em]">For Divyanshi</span>
                     <Stars className="h-5 w-5 animate-pulse" />
                 </div>
 
                 <h1 className="gm-title font-bold leading-tight text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.25)]">
                     <span className="block text-[clamp(2.4rem,12vw,5rem)] gm-shimmer">Good Morning</span>
-                    <span className="mt-2 block text-[clamp(1.6rem,8vw,3rem)] text-pink-100">my love 💛</span>
+                    <span className="mt-2 block text-[clamp(1.6rem,8vw,3rem)] text-pink-100">Divyanshi 💛</span>
                 </h1>
 
                 {/* Glass love letter */}
@@ -174,12 +174,13 @@ const GoodMorningPage = () => {
                         <h2 className="text-lg font-semibold sm:text-xl">I&apos;m sorry, and I love you ☀️</h2>
                     </div>
                     <p className="text-[15px] leading-relaxed text-rose-900/90 sm:text-base">
-                        I know I made you sad last night, and I&apos;ve been holding that ache all through the dark.
-                        So I wanted yours to be the first heart the sun touches today. 🌅
+                        Divyanshi, I know I made you sad last night, and I&apos;ve been holding that ache all
+                        through the dark. So I wanted yours to be the first heart the sun touches today. 🌅
                     </p>
                     <p className="mt-3 text-[15px] leading-relaxed text-rose-900/90 sm:text-base">
                         You deserve gentle mornings, soft words, and someone who chooses you on the hard days too.
-                        I&apos;m sorry. Let today start over — with me trying harder to be worthy of your smile.
+                        I&apos;m sorry, Divyanshi. Let today start over — with me trying harder to be worthy of
+                        your smile.
                     </p>
 
                     <div className="mt-5 flex items-center gap-2 text-rose-700">
